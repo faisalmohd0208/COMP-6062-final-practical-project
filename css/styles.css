@@ -1,0 +1,24 @@
+/*  styles */
+#dictionary {
+    margin-bottom: 20px;
+}
+#weather{
+    margin-bottom: 20px;
+}
+#random-fact{
+    margin-bottom: 20px;
+}
+
+/* Media queriy*/
+@media (max-width: 768px) {
+    .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media (max-width: 576px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+}
